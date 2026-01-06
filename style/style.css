@@ -14,7 +14,8 @@ header {
     padding-top: 50px;
     background: url("../images/developer.png"), url("../images/header_bg.png"), #FFF8F3;
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    /* background-position: top left, bottom right; */
+    background-position: 38px 23px, bottom right;
     /* margin: 38px 0 25px 23px; */
 }
 nav {

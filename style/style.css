@@ -1,11 +1,4 @@
-/* nav {
-  display: flex;
-  justify-content: space-around;
-  margin: auto;
-}
-nav h2 {
-  font-family: open-sence;
-} */
+
 * {
     margin: 0;
     padding: 0;
@@ -117,46 +110,6 @@ nav li a {
     vertical-align: middle;
 }
 
-/* #about {
-    max-width: 1140px;
-    background-color: #FFF8F3;
-    border-radius: 5px;
-    align-items: center;
-    margin: auto;
-    padding-top: 130px;
-    margin-top: 130px;
-    padding: 131px 157px;
-} */
-
-/* .about-content {
-    background-color: #FFF8F3;
-    border-radius: 5px;
-    margin: 131px 156.5px;
-    align-items: center;
-    max-width: 1140px;
-} */
-/* .about-content .section-heading h2{
-    color: #181818;
-    font-size: 35px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 30px;
-}
-.about-content .section-heading p {
-    color: #757575;
-    font-size: 18px;
-    text-align: center;
-}
-
-.about-info {
-    display: flex;
-    justify-content: space-between;
-    margin: 30px 22.5px 0;
-}
-.about-info p {
-    text-align: center;
-} */
-
 #about, #skills, #resume, #contact {
     padding-top: 130px;
     
@@ -188,23 +141,12 @@ nav li a {
     font-weight: bold;
 }
 
-
-/* #skills {
-    padding-top: 130px;
-} */
 #skills .skills-container {
     width: 71%;
     max-width: 1140px;
     margin: 0 auto;
    
 }
-
-/* #skills .skill-container {
-    width: 71%;
-    max-width: 1140px;
-    margin: 0 auto;
-    text-align: center;
-} */
 
 #skills .skills-container .skill-box {
     display: flex;
@@ -237,29 +179,6 @@ nav li a {
     line-height: 28px;
     
 }
-
-/* #resume {
-    width: 71%;
-    max-width: 1140px;
-    padding-top: 130px;
-    margin: 0 auto;
-}
-
-#resume .resume-container {
-    padding-top: 113px;
-    display: flex;
-    justify-content: space-around;
-}
-.resume-container .education.section-title{
-    max-width: 203px;
-    margin-bottom: 30px;
-    border: 1px solid rebeccapurple;
-}
-
-.resume-container .resume-card {
-    max-width: 511px;
-} */
-
 
 #resume .resume-container {
     width: 71%;
@@ -302,15 +221,60 @@ nav li a {
 hr {
     margin: 30px 0;
 }
-/* .education .resume-card {
-    margin-bottom: 30px;
-}
-.experience .resume-card {
-    margin-bottom: 30px;
-} */
 
 .downloadcv {
     display: flex;
     justify-content: center;
     margin: 50px auto 0;
+}
+
+footer {
+    background-color: #FFF8F3;
+    margin-top: 130px;
+    padding: 130px 0;
+
+}
+footer .footer-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 117px;
+}
+.footer-container .social {
+    max-width: 562px;
+}
+
+.form {
+    max-width: 461px;
+}
+
+.footer-container  h2 {
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.footer-container .social p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.footer-container .icons a{
+    margin-right: 24px;
+}
+
+.footer-container form input[type="text"], textarea {
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+}
+
+.footer-container form textarea {
+    height: 180px;
+
 }
